@@ -206,8 +206,9 @@ void w_zakresie_elipsy(UShort_t energia_dol, UShort_t energia_gora, UShort_t cha
 
 
 
-void creating_histograms(TH1F *h, TH1F *total_h, TH2F *h2d, TH2F *total_h2d)
-{
+void creating_histograms(TH1F *h, TH1F *total_h, TH2F *h2d, TH2F *total_h2d, Int_t para_detektorow)
+{	
+		
 	char name[20];
 	char title[100];
 	for (Int_t i = 0; i < 6; i++)	{
