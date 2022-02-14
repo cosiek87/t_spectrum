@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "tspectrum_coincidence.C": "cpp"
+        "tspectrum_coincidence.C": "cpp",
+        "vector": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
